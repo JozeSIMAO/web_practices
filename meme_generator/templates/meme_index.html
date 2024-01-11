@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="refresh" content="10">
+    <title>Meme Website</title>
+    <style>
+        body {
+            background-color: #000000;
+            background-repeat: no-repeat;
+            background-position: top left;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ffffff;
+            background-color: #000000;
+        }
+
+        p {
+            text-align: center;
+            font-family: Georgia, serif;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: normal;
+            color: #ffffff;
+            background-color: #000000;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>A website to gather some memes!</h1>
+    <p>Here is your meme! This will refresh in 10 seconds!</p>
+    <p><img src="{{meme_pic}}" alt="Meme"></p>
+    <p>Current subreddit: {{subreddit}}</p>
+</body>
+</html>
